@@ -1,6 +1,6 @@
 import asyncio
-from db.connection import engine, Base
 
+from bot.db.connection import engine, Base
 from bot.models import Reservation, Table
 
 

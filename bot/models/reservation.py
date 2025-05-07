@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from datetime import datetime
 
-from db.connection import Base
+from bot.db.connection import Base
 
 
 class Reservation(Base):
