@@ -1,0 +1,17 @@
+.env
+.venv/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git
+.git
+.gitignore
+
+# Другие ненужные файлы
+*.log
+.DS_Store
